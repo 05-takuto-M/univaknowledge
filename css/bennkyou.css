@@ -1,0 +1,65 @@
+
+body{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 30px;
+    margin-top: 1.0em;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-color: darkblue;
+}
+p {
+    line-height: 1.4em;
+}
+li{
+    line-height: 1.4em;
+}
+h1{
+    font-size: 60px;
+    color: lightgray;
+    padding-bottom: 0.5em;
+}
+header{
+    width: 1500px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+/* ナビメニュー */
+.navi0{
+    width: 1500px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+    padding-left: 1200px;
+    margin-bottom: 1em;
+}
+.navi{
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* ナビメニューここまで */
+.sec0{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 1em;   
+}
+.list0{
+    margin-left: 1em;
+}
+

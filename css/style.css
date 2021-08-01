@@ -1,0 +1,190 @@
+/*--header--*/
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+    width: 1500px;
+    margin: auto;
+    font-size: 1.6rem;
+    background-color: gray;
+    color: white;
+}
+header {
+  background-color: #222;
+  margin: 0 auto;
+}
+h2{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+a {
+  color: whitesmoke;
+  text-decoration-line: underline;
+  text-decoration-color: darkblue;
+  }
+.image{
+  background-color: greenyellow;
+
+}
+.position0 {
+    width: auto;
+    margin-left: 2em;
+    padding-top: 1em;
+}
+.position {
+    margin-left: 2em;
+    line-height: 1.3em;
+}
+.position1{
+  margin-left: 5em;
+}
+.position2{
+  margin-left: 0.5em;
+  padding-top: 0.5em;
+}
+.position3{
+  margin-left: 2em;
+  padding-top: 0.5em;
+}
+.position4{
+  width: auto;
+  margin-left: 4em;
+  padding-top: 1em;
+}
+.position5{
+  margin-left: 4em;
+}
+.position6{
+  padding-top: 1em;
+}
+.kasen{
+  text-decoration: underline;
+  font-size: 14px;
+}
+.sssss1{
+  display: flex;
+}
+.sssss{
+  display: flex;
+}
+
+
+.plate {
+    width: 100%;
+    margin: auto;
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+}
+.text1 {
+  font-size: 40px;
+}
+.text2 {
+  font-size: 149px;
+}
+.text3 {
+  font-size: 60px;
+}
+/*アコーディオンメニュー*/
+.acd-check{
+  display: none;
+}
+.acd-label{
+  background: #333;
+  color: #fff;
+  display: block;
+  margin-bottom: 1px;
+  padding: 10px;
+}
+.acd-content{
+  border: 1px solid greenyellow;
+  height: 0;
+  opacity: 0;
+  padding: 0 10px;
+  transition: .5s;
+  visibility: hidden;
+}
+.acd-check:checked + .acd-label + .acd-content{
+  font-size: 14px;
+  height: 100px;
+  opacity: 1;
+  padding: 10px;
+  visibility: visible;
+}
+/*アコーディオンメニュー*/
+/*--header--*/
+
+/*--scroll--*/
+<style type="text/css">
+.scroll {
+  margin-left: 2em;
+  width      : 1366px;
+  font-size  : 140%;
+  line-height: 1.5em;
+  text-align : center;
+  border     : 1px solid #666;
+  color      : #000000;
+  background : #fff;
+  overflow   : hidden;
+}
+.scroll span{
+  width: 100px;
+  margin: auto;
+  display     : inline-block;
+  padding-left: 50%;
+  white-space : nowrap;
+  line-height : 1em;
+  animation   : scrollAnime 5s linear infinite;
+}
+.size1{
+    width: 200px;
+}
+@keyframes scrollAnime{
+    0% { transform: translateX(0)}
+  100% { transform: translateX(-100%)}
+}
+</style>
+
